@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="MyCSS.css">
+
+	<meta charset="utf-8">
+  <title>Contact Info</title>
+	<meta name = "description" content = "Contact info page">
+ <style>
+    .form-box {
+      border: 1px solid orange;
+      padding: 20px;
+      width: 400px;
+      margin: 0 auto;
+    }
+	 input[type="text"],
+    input[type="email"],
+    textarea {
+      border: 2px solid orange;
+      padding: 5px;
+      
+    }
+  </style>
+	<!--JohnKappler, CTI110-0005-->
+<body>
+<header>
+    <h1 style="color: #FF8C00;">Welcome to My Website!</h1>
+    <div class="search-bar">
+      <form>
+        <input type="text" placeholder="Search...">
+        <input type="submit" value="Search">
+      </form>
+    </div>
+    <h6>The date is 
+      
+      <!-- #BeginDate format:fcAm1 -->Saturday, July 8, 2023<!-- #EndDate -->
+  </h6>
+  <p>All About John Kappler</p>
+</header>
+<nav>
+    <ul>
+      <li><a href="LandingPage.html" style="color: #fff;">Home</a></li>
+      <li><a href="AboutMe.html" style="color: #fff;">About Me</a></li>
+      <li><a href="MyHobbies.html" style="color: #fff;">My Hobbies</a></li>
+      <li><a href="MyGoals.html" style="color: #fff;">My Goals</a></li>
+      <li><a href="MyFamily.html" style="color: #fff;">My Family</a></li>
+		<li><a href="ContactInfo.html">Contact</a><a href="#" style="color: #fff;"></a></li>
+    </ul>
+  </nav>
+	<main>
+    <h2>About Me</h2>
+    <p><span data-textline-id="5" data-page-index="0">My name is John Anthony Kappler III, and I was born in Apple Valley, Minnesota </span> <span data-textline-id="6" data-page-index="0">on October 10th, 1999. I spent my childhood in Rochester, Minnesota, which is the home of the </span> <span data-textline-id="7" data-page-index="0">famous Mayo Clinic. My father worked at Mayo as an IT manager, and my mom stayed home </span> <span data-textline-id="8" data-page-index="0">with me and my siblings as we were growing up. From an early age, I was always curious and </span> <span data-textline-id="9" data-page-index="0">eager to learn. I especially enjoyed reading about the American Civil War, as well as the World </span> <span data-textline-id="10" data-page-index="0">Wars (it makes sense that I majored in history). In high school, I participated in a variety of </span> <span data-textline-id="11" data-page-index="0">extracurricular activities, including track, cross country, jazz band, and marching band. I decided </span> <span data-textline-id="12" data-page-index="0">my senior year that I wanted to attend the University of Wisconsin – Madison, and that&rsquo;s where I </span> <span data-textline-id="13" data-page-index="0">ended up after I finished high school in 2018. Fast forward five years, and I live in Raleigh, NC </span> <span data-textline-id="14" data-page-index="0">with my girlfriend and dog. </span></p>
+<p><img src="Assets/IMG_1624.jpg" width="325" height="374" alt=""></p>
+	<h2>Let's get in touch!</h2>
+	<form action="/submit-form" method="POST">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Your Email Address:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
+    <input type="submit" value="Submit">
+	</form>
+</main>
+
+  <footer>
+    <p>&copy; 2023 John Kappler's Website.</p>
+    
+    
+</footer>
+</body>
+</html>
